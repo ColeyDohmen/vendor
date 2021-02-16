@@ -17,10 +17,14 @@ export default class VendingController {
   }
 
   buy(itemName) {
-    console.log(`buy frose rose`)
+    // console.log(`buy frose rose`)
     vendingService.buy(itemName)
 
 
+  }
+
+  addDollar(){
+      vendingService.addDollar()
   }
 
   addQuarter(){

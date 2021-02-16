@@ -28,6 +28,7 @@
                 <h2>Total: <span id="total"></span></h2>
                 <p>Insert Money Below</p>
                 <button class="btn btn-success" onclick="app.vendingController.addQuarter()">$.25</button>
+                <button class="btn btn-success" onclick="app.vendingController.addDollar()">$1.00</button>
                 <div class="row">
                     <div class="col-4 justify-content-center text-center">
                         <h4>Frose Rose</h4>
@@ -51,6 +52,9 @@
                         <button class="btn btn-primary" onclick="app.vendingController.buy(`miamiCola`)">$2.50</button>
                     </div>
 
+                </div>
+                <div class="row-12 py-5">
+                    <button class="btn btn-info" onclick="app.vendingController.draw(``)">DISPENSE</button>
                 </div>
     </main>
     <footer class="container-fluid bg-dark text-light">

@@ -12,8 +12,6 @@ class AppState extends EventEmitter {
   purpleGuava = {
     price: 3.00
   }
-
-  
   miamiCola = {
     price: 2.50
   }
