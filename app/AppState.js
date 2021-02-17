@@ -7,13 +7,16 @@ class AppState extends EventEmitter {
   values = []
   money = 0
   froseRose = {
-    price: 2.00
+    price: 2.00,
+    quantity: 0
   }
   purpleGuava = {
-    price: 3.00
+    price: 3.00,
+    quantity: 0
   }
   miamiCola = {
-    price: 2.50
+    price: 2.50,
+    quantity: 0
   }
 }
 

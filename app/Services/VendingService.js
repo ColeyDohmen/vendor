@@ -8,9 +8,15 @@ class VendingService {
     }
   buy(itemName) {
     if (ProxyState.money >= ProxyState[itemName].price){
-        ProxyState.money-= ProxyState[itemName].price}
+        ProxyState.money-= ProxyState[itemName].price; 
+        ProxyState[itemName].quantity++   
 console.log(`bought item`);
+    }
   }
+
+//   draw(){
+
+  
   addQuarter(){
       ProxyState.money+= .25
       console.log(`add quarter`, ProxyState.money);
